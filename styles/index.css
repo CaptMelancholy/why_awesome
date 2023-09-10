@@ -6,7 +6,6 @@
 }
 
 body {
-  background: #fff;
   font-size: 14px;
 }
 
@@ -49,7 +48,7 @@ h4 {
 
 .container {
   margin: 0 auto;
-  max-width: 1202px;
+  max-width: 1200px;
   padding: 0 15px;
 }
 
@@ -70,20 +69,19 @@ h4 {
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  border-bottom: 1px solid #C6CBCD;
 }
 
 .first__tabbuton {
   border-radius: 5px 5px 0px 0;
-  border: 1px solid #C6CBCD;
-  border-bottom: transparent;
+  border: 1px solid #c6cbcd;
+  border-bottom: 1px solid white;
 }
 
 .tabbuttons {
   word-spacing: -0.36em;
   display: table;
   min-width: inherit;
-  
+  margin-bottom: -1px;
 }
 
 .last_tabbutton {
@@ -93,17 +91,15 @@ h4 {
 }
 
 .tabcontent {
-  min-width: 1172px;
-  border-bottom: 1px solid #c6cbcd;
-  border-left: 1px solid #c6cbcd;
-  border-right: 1px solid #c6cbcd;
+  min-width: 1170px;
+  border: 1px solid #c6cbcd;
   word-spacing: -0.36em;
   display: table;
 }
 
 .tabscontent__left {
-  min-width: 700px;
-  padding-left: 100px;
+  min-width: 698px;
+  padding: 0 30px 0 98px;
   display: inline-block;
   vertical-align: middle;
 }
